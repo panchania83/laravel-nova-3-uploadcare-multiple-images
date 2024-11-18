@@ -1,0 +1,29 @@
+{
+    "name": "panchania83/laravel-nova-3-uploadcare-multiple-images",
+    "description": "A Laravel Nova uploadcare multiple images field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "panchania83\\UploadcareImage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "panchania83\\UploadcareImage\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
